@@ -162,6 +162,10 @@ class TasmotaDevice(QObject):
         if endpoint:
             return "{}/{}".format(self.build_topic("tele"), endpoint)
         return self.build_topic("tele")
+        
+    def mqtt_server(self, endpoint=""):
+        return self.p['MqttHost'] 
+        
 
     def is_default(self):
         return self.p['FullTopic'] in ["%prefix%/%topic%/", "%topic%/%prefix%/"]

@@ -42,3 +42,4 @@ See the [wiki article](https://github.com/jziolkowski/tdm/wiki/Prerequisites-ins
 Uses free icons from [Icons8](https://icons8.com)
 
 <a href="https://www.buymeacoffee.com/eYmkLXO" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+

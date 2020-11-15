@@ -9,7 +9,7 @@ default_views = {
     "Health": base_view + ["Uptime", "BootCount", "RestartReason", "LoadAvg", "Sleep", "MqttCount", "LinkCount", "Downtime", "RSSI"],
     "Firmware": base_view + ["Version", "Core", "SDK", "ProgramSize", "Free", "OtaUrl"],
     "Wifi": base_view + ["Hostname", "Mac", "IPAddress", "Gateway", "SSId", "BSSId", "Channel", "RSSI", "LinkCount", "Downtime"],
-    "MQTT": base_view + ["Topic", "FullTopic", "CommandTopic", "StatTopic", "TeleTopic", "FallbackTopic", "GroupTopic"],
+    "MQTT": base_view + ["MqttHost", "Topic", "FullTopic", "CommandTopic", "StatTopic", "TeleTopic", "FallbackTopic", "GroupTopic"],
 }
 
 console_font = QFont("asd")

@@ -117,6 +117,9 @@ class TasmotaDevicesModel(QAbstractTableModel):
                 elif col_name == "TeleTopic":
                     return d.tele_topic()
 
+                elif col_name == "MqttHost":
+                    return d.mqtt_server()
+
                 elif col_name == "FallbackTopic":
                     return "cmnd/{}_fb/".format(d.p.get('MqttClient'))
 
